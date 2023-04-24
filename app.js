@@ -52,6 +52,10 @@ app.post('/crypto/nft', async(req, res)=>{
         'https://gateway.pinata.cloud/ipfs/QmQN34Q3bVfRUBPrtTAmwK23GAQScrUStxtvipk4FoqTXK/Sean_left_foot.json',
         'https://gateway.pinata.cloud/ipfs/QmQN34Q3bVfRUBPrtTAmwK23GAQScrUStxtvipk4FoqTXK/Sean_right_hand.json',
         'https://gateway.pinata.cloud/ipfs/QmQN34Q3bVfRUBPrtTAmwK23GAQScrUStxtvipk4FoqTXK/Sean_right_foot.json',
+        'https://gateway.pinata.cloud/ipfs/QmTRJnWmtC2Y4NfKZe3cBbNubhw5ZFWwnchebjz8CAogGu/Jonathan.json',
+        'https://gateway.pinata.cloud/ipfs/QmTRJnWmtC2Y4NfKZe3cBbNubhw5ZFWwnchebjz8CAogGu/Kevin.json',
+        'https://gateway.pinata.cloud/ipfs/QmTRJnWmtC2Y4NfKZe3cBbNubhw5ZFWwnchebjz8CAogGu/Louis.json',
+        'https://gateway.pinata.cloud/ipfs/QmTRJnWmtC2Y4NfKZe3cBbNubhw5ZFWwnchebjz8CAogGu/Sean.json'
     ]
     try{
         contract.safeMint(addr, nftLink[index]);
